@@ -22,7 +22,6 @@ var ctx = canvas.getContext('2d');
 // ctx.lineTo(60,300);
 // ctx.stroke();
 
-//
 // ctx.fillStyle = '#8ED6FF';
 ctx.beginPath();
 ctx.arc(300, 100, 45, 0, Math.PI * 2);
@@ -324,8 +323,6 @@ ctx.fill();
 ctx.stroke();
 
 
-
-
 //RigthPath
 ctx.strokeStyle='black';
 ctx.beginPath();
@@ -413,7 +410,6 @@ ctx.fillStyle='black';
 ctx.stroke();
 ctx.font = 'Bold 10pt Arial';
 ctx.fillText('Add accumulators', 395, 440);
-
 
 //rightline3
 ctx.beginPath();
